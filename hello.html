@@ -6,7 +6,60 @@
 	<body>
 		<h1>Hello, World! Hello Again Hello the 3rd time my name is Marvel
 		John is my friend</h1>
-	
+	<div id="contact">
+
+
+			<h1>Simple PHP Contact Form</h1>
+			<p>With just 2 files this can be easily integrated into any PHP page!</p>
+
+			
+			<fieldset>
+
+			<legend>Please fill in the following form to contact us</legend>
+
+			<form method="post" action="">
+
+			<label for="name" accesskey="U"><span class="required">*</span> Your Name</label>
+			<input name="name" type="text" id="name" size="30" value="">
+
+			<br>
+			<label for="email" accesskey="E"><span class="required">*</span> Email</label>
+			<input name="email" type="text" id="email" size="30" value="">
+
+			<br>
+			<!-- Remove these comment tags to activate phone number field.
+			<label for=phone accesskey=P><span class="required">*</span> Phone</label>
+			<input name="phone" type="text" id="phone" size="30" value="" />
+
+			<br />
+			-->
+			<label for="subject" accesskey="S"><span class="required">*</span> Subject</label>
+			<select name="subject" id="subject">
+				<option value="Support">Support</option>
+				<option value="a Sale">Sales</option>
+				<option value="a Bug fix">Report a bug</option>
+			</select>
+
+			<br>
+			<label for="comments" accesskey="C"><span class="required">*</span> Your comments</label>
+			<textarea name="comments" cols="40" rows="3" id="comments"></textarea>
+
+			<hr>
+
+			<p><span class="required">*</span> Are you human?</p>
+
+			<label for="verify" accesskey="V">&nbsp;&nbsp;&nbsp;3 + 1 =</label>
+			<input name="verify" type="text" id="verify" size="4" value=""><br><br>
+
+			<input name="contactus" type="submit" class="submit" id="contactus" value="Submit">
+
+			</form>
+
+			</fieldset>
+
+
+
+	</div>
    
 	</body>
 </html>
